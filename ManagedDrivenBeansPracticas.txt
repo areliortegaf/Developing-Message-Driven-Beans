@@ -1,0 +1,27 @@
+PRACTICA MANAGED DRIVEN BEANS:
+FILTRO POR TOPIC, SE NECESITA LA PRACTICA DEL JMS PASADA.
+
+click detecho en el proyecto -> new -> other-> glassfish ->JMS Resources
+NEXT
+(donde dice jndi creamos el topic)
+JNDI Name: jms/orderTopic
+Description: Order Topic
+Admin Object Resources: javax.jms.Topic
+NEXT
+**********************
+Properties
+Name |Value     |
+-----------------
+Name |orderTopic
+
+**********************
+regresamos a atras para verificar que el nombre sea el mismo.
+NEXT
+FINISH
+
+VAMOS A MODIFICAR EL PRODUCER PARA UASR EL TOPIC.
+
+(CORREMOS EL PROJECTO)
+
+NOS VAMOS A SERVICES->GLASSFISH->RESOURCES->ADMIN OBJECCTS
+DEBE DE APARECES EL NUEVO: JMS/ORDERTOPIC
